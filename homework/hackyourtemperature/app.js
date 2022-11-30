@@ -1,5 +1,5 @@
 import express, { response } from "express";
-import { requestData } from "../api/requestData.js";
+import { requestData } from "./api/requestData.js";
 const app = express();
 app.use(express.json());
 
